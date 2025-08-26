@@ -1,4 +1,4 @@
-function findEvens(arr) {
+function findEven(arr) {
   let evens = [];
 
   for (let i = 0; i < arr.length; i++) {
@@ -10,4 +10,4 @@ function findEvens(arr) {
   return evens;
 }
 
-console.log(findEvens([1, 2, 3, 4, 5, 6])); 
+console.log(findEven([1, 2, 3, 4, 5, 6])); 
